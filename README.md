@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio-setup-and-mobile-first/Project
+  <h3><b>Review your project from trials!
 </b></h3>
 
 </div>
@@ -33,11 +33,9 @@
 
 
 
-# 📖 [Portfolio-Setup-and-mobile-first] <a name="about-project"></a>
+# 📖 [Review your project from trials!] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Portfolio-Setup-and-mobile-first]** is a a web project that consists of building my first Portfolio in the mobile view using HTML and CSS.
+**[Review your project from trials!]** is a a web project that consists of rviewing my project from the trial and change it to a more clean and semantic code using HTML and CSS.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -96,14 +94,14 @@
 
 In order to run this project you need:
 
-have accese to the figma template for this project
+you need to have the code the trial projectdone before
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:melybee-07/Portfolio-setup-and-mobile-first.git
+git clone git@github.com:melybee-07/Trials-Project.git
 
 ### Install
 
@@ -118,7 +116,6 @@ you need to install the Linters for the HTML and CSS Documents
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
