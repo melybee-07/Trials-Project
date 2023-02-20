@@ -1,0 +1,103 @@
+body {
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+#description {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#container {
+  background-color: rgb(7, 7, 72, 50%);
+  width: 50%;
+  text-align: left;
+  padding: 50px;
+  font-size: 25px;
+  color: white;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.sec-form ul {
+  list-style: none;
+}
+
+.sec-form li {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-form input {
+  width: 90%;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.sec-form #dropdown {
+  width: 90%;
+  border-radius: 5px;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.sec2-form ul {
+  list-style: none;
+}
+
+.radio_id {
+  display: flex;
+  flex-direction: row;
+}
+
+.sec3-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec3-form label {
+  margin-left: 45px;
+}
+
+.sec3-form textarea {
+  width: 90%;
+  font-size: 15px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  margin-left: 45px;
+}
+
+.sec-form button {
+  width: 90%;
+  background-color: green;
+  height: 40px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-left: 45px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- the header section -->
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+
+    <main>
+        <section id="container">
+            <form action="" id="survey-form">
+                <!-- information about the name age and email of the user -->
+                <section class="sec-form">
+
+                    <ul>
+                        <li>
+                            <label for="" id="name-label">Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </li>
+
+                        <li>
+                            <label for="" id="email-label">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </li>
+
+                        <li>
+                            <label for="" id="number-label">Age(optional)</label>
+                            <input type="number" id="number" min="1" max="100" placeholder="Enter your age" required>
+                        </li>
+                    </ul>
+
+                </section>
+                <!-- select an option -->
+                <section class="sec-form">
+                    <ul>
+                        <li>
+                            <label for="dropdown">Which option best describes your current role?</label>
+                            <select name="" id="dropdown">
+                                <option value="" selected>Select current role</option>
+                                <option>Student</option>
+                                <option>Full time job</option>
+                                <option>Full time learner</option>
+                                <option>Prefer not to stay</option>
+                                <option>Other</option>
+                            </select>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- radio section -->
+                <section class="sec2-form">
+                    <ul>
+                        <li>
+                            <p>Would you recommend freeCodeCamp to a friend?</p>
+                        </li>
+                        <li class="radio_id">
+                            <input type="radio" id="Definitely" name="name" value="definitely">
+                            <label for="Definitely"> Definitely</label>
+                        </li>
+                        <li class="radio_id">
+                            <input type="radio" id="Maybe" name="name" value="Maybe">
+                            <label for="Maybe"> Maybe</label>
+                        </li>
+                        <li class="radio_id">
+                            <input type="radio" id="not_sure" name="name" value="Not sure">
+                            <label for="not_sure"> Not sure</label>
+                        </li>
+
+                    </ul>
+                </section>
+                <!-- selecting an option -->
+                <section class="sec-form">
+                    <ul>
+                        <li>
+                            <p>What is your favorite feature of freeCodeCamp?</p>
+                        </li>
+                        <li>
+                            <select name="" id="dropdown">
+                                <option value="" selected>Select an option</option>
+                                <option>Challenges</option>
+                                <option>Projects</option>
+                                <option>Community</option>
+                                <option>Open Source</option>
+                            </select>
+                        </li>
+
+                    </ul>
+                </section>
+                <!-- checkbox section -->
+                <section class="sec2-form">
+                    <ul>
+                        <li>
+                            <p>What would you like to see improved? (Check all that apply)</p>
+                            <div>
+                                <input type="checkbox" id="chk1" name="vehicle1" value="Bike">
+                                <label for="chk1"> Front-end Projects</label><br>
+
+                                <input type="checkbox" id="chk2" name="vehicle2" value="Car">
+                                <label for="chk2"> Back-end Projects</label><br>
+
+                                <input type="checkbox" id="chk3" name="vehicle3" value="Boat">
+                                <label for="chk3"> Data Visualization</label><br>
+
+                                <input type="checkbox" id="chk4" name="vehicle1" value="Bike">
+                                <label for="chk4"> Challenges</label><br>
+
+                                <input type="checkbox" id="chk5" name="vehicle2" value="Car">
+                                <label for="chk5"> Open Source Community</label><br>
+
+                                <input type="checkbox" id="chk6" name="vehicle3" value="Boat">
+                                <label for="chk6"> Gitter help rooms</label><br>
+
+                                <input type="checkbox" id="chk7" name="vehicle1" value="Bike">
+                                <label for="chk7"> Videos</label><br>
+
+                                <input type="checkbox" id="chk8" name="vehicle2" value="Car">
+                                <label for="chk8"> City Meetups</label><br>
+
+                                <input type="checkbox" id="chk9" name="vehicle3" value="Boat">
+                                <label for="chk9"> Wiki</label><br>
+
+                                <input type="checkbox" id="chk10" name="vehicle2" value="Car">
+                                <label for="chk10"> Forum</label><br>
+
+                                <input type="checkbox" id="chk11" name="vehicle3" value="Boat">
+                                <label for="chk11"> Additional Courses</label><br>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <!-- submiting information in the textarea -->
+                <section class="sec3-form">
+                    <label for="">Any comments or suggestions?</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+                </section>
+                <!-- submit button section -->
+                <section class="sec-form">
+                    <button type="submit" id="submit">Submit</button>
+                </section>
+
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
